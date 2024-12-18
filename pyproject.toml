@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "journeylogs"
+version = "0.1.0"
+description = "JourneyLogs é uma aplicação para registrar e acompanhar sua evolução, organizando ideias, metas e aprendizados em uma jornada documentada e significativa."
+authors = ["Matheus Fabião <matheusfabiao.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+dj-database-url = "^2.3.0"
+python-decouple = "^3.8"
+blue = "^0.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
